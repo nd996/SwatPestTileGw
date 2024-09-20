@@ -5,7 +5,7 @@ Build with cmake:
 
 ### Configure the project
 
-`FC=f77 FFLAGS="-ffree-line-length-0 -ffixed-line-length-0 -g -O2" cmake -B build`
+`FC=gfortran FFLAGS="-ffree-line-length-0 -ffixed-line-length-0 -g -O2" cmake -B build`
 
 ### Build
 

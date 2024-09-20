@@ -9,7 +9,7 @@ enable_language(Fortran)
 # want a specific standard
 set(FVERSION "-std=gnu")
 set(CMAKE_Fortran_FLAGS "-ffree-line-length-0 -ffixed-line-length-0 -g -O2 ${CMAKE_Fortran_FLAGS} ${FVERSION}")
-set(CMAKE_Fortran_COMPILER "f77")
+set(CMAKE_Fortran_COMPILER "gfortran")
 
 # Source code
 add_subdirectory(src)
