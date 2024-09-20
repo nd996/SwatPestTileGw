@@ -186,7 +186,7 @@
         aax4="TILE_mg"
         aax5="GW_mg"
         aax6="GWdDEEP_mg"
-      write (30,3003) ((aax1,aax2,aax3,aax4,aax5,aax6), j = 1, npmx)
+      write (30,3003) (aax1, aax2, aax3, aax4, aax5, aax6, j = 1, npmx)
       end if
 !! write headings to pesticide conc output file (outputconc.pst) !HR 
       if (iprp == 2) then
@@ -205,7 +205,7 @@
         aax41="TILE_ugL"
         aax51="GW_ugL"
         aax61="GWdDEEP_ugL"
-      write (32168,3003) ((aax11,aax21,aax31,aax41,aax51,aax61), j = 1, npmx)
+      write (32168,3003) (aax11, aax21, aax31, aax41, aax51, aax61, j = 1, npmx)
       end if
 !! Jaehak subdaily bmp output header
 !bmp-sedfil.out
